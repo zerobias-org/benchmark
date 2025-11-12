@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/benchmark-bundle",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "All installable benchmarks",
   "author": "team@auditmation.io",
   "license": "ISC",
