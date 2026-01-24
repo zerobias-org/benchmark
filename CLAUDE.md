@@ -41,7 +41,7 @@ benchmark/
 
 ## File Format Reference
 
-**Source of Truth:** `../../auditmation/platform/dataloader/src/processors/standard/benchmark/`
+**Source of Truth:** `../../com/platform/dataloader/src/processors/standard/benchmark/`
 
 **Expected Structure:**
 - `index.yml` - Benchmark metadata
@@ -68,7 +68,7 @@ benchmark/
 - **[ContentArtifacts.md](../../ContentArtifacts.md)** - Content catalog system
 - **[auditlogic/benchmark/CLAUDE.md](../../auditlogic/benchmark/CLAUDE.md)** - Proprietary benchmarks (same pattern)
 - **[auditlogic/standard/CLAUDE.md](../../auditlogic/standard/CLAUDE.md)** - Standard structure
-- **[auditmation/platform/dataloader/CLAUDE.md](../../auditmation/platform/dataloader/CLAUDE.md)** - Dataloader processor
+- **[com/platform/dataloader/CLAUDE.md](../../com/platform/dataloader/CLAUDE.md)** - Dataloader processor
 
 ---
 
