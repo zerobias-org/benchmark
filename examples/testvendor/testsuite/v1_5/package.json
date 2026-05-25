@@ -6,14 +6,8 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/standard.git",
+    "url": "git@github.com:zerobias-org/benchmark.git",
     "directory": "package/testvendor/testsuite/v1_5/"
-  },
-  "scripts": {
-    "nx:publish": "../../../../scripts/publish.sh",
-    "prepublishtest": "../../../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -23,12 +17,13 @@
     "baselines/**",
     "elements/**"
   ],
-  "auditmation": {
-    "dataloader-version": "3.29.26",
-    "import-artifact": "benchmark",
-    "package": "testvendor.testsuite.v1_5.benchmark"
-  },
   "dependencies": {
     "@auditlogic/suite-testvendor-testsuite": "latest"
+  },
+  "type": "module",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "benchmark",
+    "package": "testvendor.testsuite.v1_5.benchmark"
   }
 }
