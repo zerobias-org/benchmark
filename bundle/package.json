@@ -1,8 +1,8 @@
 {
   "name": "@zerobias-org/benchmark-bundle",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "All installable benchmarks",
-  "author": "team@auditmation.io",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
@@ -12,10 +12,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "auditmation": {
+  "dependencies": {},
+  "zerobias": {
     "package": "bundle.all-benchmarks",
     "import-artifact": "bundle",
-    "dataloader-version": "0.5.4"
-  },
-  "dependencies": {}
+    "dataloader-version": "1.0.0"
+  }
 }
