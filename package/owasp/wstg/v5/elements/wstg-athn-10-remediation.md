@@ -1,0 +1,1 @@
+Ensure a consistent authentication policy is applied across all channels so that they are equally secure.

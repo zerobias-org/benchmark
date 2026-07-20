@@ -1,0 +1,7 @@
+id: 08dcfe68-88bb-4498-8a4f-34bc091831bc
+name: Testing WebSockets
+externalId: WSTG-CLNT-10
+description: |-
+  - Identify the usage of WebSockets.
+  - Assess its implementation by using the same tests on normal HTTP channels.
+elementType: test_case

@@ -1,0 +1,7 @@
+id: fc7df18f-9985-4b81-bce7-d6dceed3ebc0
+name: Testing for Sensitive Information Sent via Unencrypted Channels
+externalId: WSTG-CRYP-03
+description: |-
+  - Identify sensitive information transmitted through the various channels.
+  - Assess the privacy and security of the channels used.
+elementType: test_case

@@ -1,0 +1,5 @@
+id: 9ff52b79-c745-4fef-ba15-42fa91492bf9
+name: Conduct Search Engine Discovery Reconnaissance for Information Leakage
+externalId: WSTG-INFO-01
+description: '- Identify what sensitive design and configuration information of the application, system, or organization is exposed directly (on the organization''s site) or indirectly (via third-party services).'
+elementType: test_case

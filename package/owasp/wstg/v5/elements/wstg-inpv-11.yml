@@ -1,0 +1,7 @@
+id: 17a09e94-7f2a-47a4-8d10-17951f965548
+name: Testing for Code Injection
+externalId: WSTG-INPV-11
+description: |-
+  - Identify injection points where you can inject code into the application.
+  - Assess the injection severity.
+elementType: test_case

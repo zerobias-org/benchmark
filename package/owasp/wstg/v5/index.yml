@@ -1,0 +1,15 @@
+id: 5a551a27-edeb-4f99-9b27-84b1b2df8a71
+name: OWASP WSTG
+description: The Web Security Testing Guide (WSTG) Project produces the premier cybersecurity testing resource for web application developers and security professionals.
+code: owasp_wstg_v5_benchmark
+status: approved
+url: https://owasp.org/www-project-web-security-testing-guide/
+version: v5
+source: OWASP
+elementTypes:
+  - id: a37920d7-828c-4da5-8356-215d5b67925c
+    name: test_case
+    code: test_case
+    description: An test case of the OWASP WSTG
+mappingTypes:
+  - test_case

@@ -1,0 +1,5 @@
+id: a74c386c-2bd7-4652-9989-2b0616d5e746
+name: Testing for Command Injection
+externalId: WSTG-INPV-12
+description: '- Identify and assess the command injection points.'
+elementType: test_case

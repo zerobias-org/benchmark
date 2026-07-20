@@ -1,0 +1,5 @@
+id: fe9f3198-6931-48b9-8dde-6aab5afca587
+name: Test File Permission
+externalId: WSTG-CONF-09
+description: '- Review and identify any rogue file permissions.'
+elementType: test_case

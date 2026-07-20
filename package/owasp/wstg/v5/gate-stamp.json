@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-uat.0",
+  "branch": "feat/add-owasp-wstg-benchmark",
+  "sourceHash": "992aa8d94c0dcbb35d7de7dd1204948897b0dffe96b6c2862ccf990d3efc181a",
+  "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "tasks": {
+    "validate": "passed",
+    "lint": "passed",
+    "compile": "passed",
+    "test": "passed",
+    "testDirect": "passed",
+    "testDocker": "passed",
+    "testDataloader": "passed",
+    "buildArtifacts": "passed"
+  },
+  "tests": {
+      "unit": { "expected": 0, "ran": 0, "status": "skipped" },
+      "integration": { "expected": 0, "ran": 0, "status": "skipped" },
+      "e2e": { "expected": 0, "ran": 0, "status": "skipped" }
+  }
+}

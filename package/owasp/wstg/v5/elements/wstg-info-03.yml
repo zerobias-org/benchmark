@@ -1,0 +1,7 @@
+id: 4132f2fe-3bfb-4b10-8041-39b9c34e40de
+name: Review Webserver Metafiles for Information Leakage
+externalId: WSTG-INFO-03
+description: |-
+  - Identify hidden or obfuscated paths and functionality through the analysis of metadata files.
+  - Extract and map other information that could lead to a better understanding of the systems at hand.
+elementType: test_case

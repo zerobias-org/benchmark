@@ -1,0 +1,5 @@
+id: d7bb592e-246e-47da-9f39-e7f69f72c8da
+name: Testing Session Timeout
+externalId: WSTG-SESS-07
+description: '- Validate that a hard session timeout exists.'
+elementType: test_case

@@ -1,0 +1,7 @@
+id: 806b7395-2bb8-456d-b9d6-eb7564e0f298
+name: Testing Cross Origin Resource Sharing
+externalId: WSTG-CLNT-07
+description: |-
+  - Identify endpoints that implement CORS.
+  - Ensure that the CORS configuration is secure or harmless.
+elementType: test_case

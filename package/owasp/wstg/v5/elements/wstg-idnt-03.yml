@@ -1,0 +1,5 @@
+id: bb976783-802b-457f-a69a-5eb251114c69
+name: Test Account Provisioning Process
+externalId: WSTG-IDNT-03
+description: '- Verify which accounts may provision other accounts and of what type.'
+elementType: test_case

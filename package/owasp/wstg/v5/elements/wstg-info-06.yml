@@ -1,0 +1,5 @@
+id: 8a3fe254-d6c1-456e-bc68-387fe34ea718
+name: Identify Application Entry Points
+externalId: WSTG-INFO-06
+description: '- Identify possible entry and injection points through request and response analysis.'
+elementType: test_case

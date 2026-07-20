@@ -1,0 +1,7 @@
+id: c271a72e-02e2-4f43-8c24-453972b2232f
+name: Test Number of Times a Function Can Be Used Limits
+externalId: WSTG-BUSL-05
+description: |-
+  - Identify functions that must set limits to the times they can be called.
+  - Assess if there is a logical limit set on the functions and if it is properly validated.
+elementType: test_case

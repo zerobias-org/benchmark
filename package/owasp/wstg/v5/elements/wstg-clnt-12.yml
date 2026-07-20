@@ -1,0 +1,7 @@
+id: 7865f412-20df-4574-bd06-3402936fcc8b
+name: Testing Browser Storage
+externalId: WSTG-CLNT-12
+description: |-
+  - Determine whether the website is storing sensitive data in client-side storage.
+  - The code handling of the storage objects should be examined for possibilities of injection attacks, such as utilizing unvalidated input or vulnerable libraries.
+elementType: test_case

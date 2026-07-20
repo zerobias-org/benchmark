@@ -1,0 +1,7 @@
+id: 46429ad9-e124-4658-978c-b7ed91a425ec
+name: Testing for HTTP Parameter Pollution
+externalId: WSTG-INPV-04
+description: |-
+  - Identify the backend and the parsing method used.
+  - Assess injection points and try bypassing input filters using HPP.
+elementType: test_case

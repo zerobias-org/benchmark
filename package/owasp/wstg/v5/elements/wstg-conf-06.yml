@@ -1,0 +1,8 @@
+id: 8c9cf820-870a-4ba6-8963-219fa587a823
+name: Test HTTP Methods
+externalId: WSTG-CONF-06
+description: |-
+  - Enumerate supported HTTP methods.
+  - Test for access control bypass.
+  - Test HTTP method overriding techniques.
+elementType: test_case

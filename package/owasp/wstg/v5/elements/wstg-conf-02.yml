@@ -1,0 +1,8 @@
+id: 5b1f1ea0-fda4-4f06-8ccb-fd0a3a20361f
+name: Test Application Platform Configuration
+externalId: WSTG-CONF-02
+description: |-
+  - Ensure that default and known files have been removed.
+  - Validate that no debugging code or extensions are left in the production environments.
+  - Review the logging mechanisms set in place for the application.
+elementType: test_case

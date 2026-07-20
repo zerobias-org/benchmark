@@ -1,0 +1,7 @@
+id: aaf9b502-1bd8-4e58-9959-b67703fe6db2
+name: Testing Web Messaging
+externalId: WSTG-CLNT-11
+description: |-
+  - Assess the security of the message's origin.
+  - Validate that it's using safe methods and validating its input.
+elementType: test_case

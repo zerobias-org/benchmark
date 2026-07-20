@@ -1,0 +1,8 @@
+id: ad314b5f-7e51-4f97-82a6-3cb4e7241954
+name: Testing for Incubated Vulnerability
+externalId: WSTG-INPV-14
+description: |-
+  - Identify injections that are stored and require a recall step to the stored injection.
+  - Understand how a recall step could occur.
+  - Set listeners or activate the recall step if possible.
+elementType: test_case

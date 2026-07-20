@@ -1,0 +1,5 @@
+id: 9ca25c23-4153-4812-b4cf-59260e96d59b
+name: Testing for Content Security Policy
+externalId: WSTG-CONF-12
+description: '- Review the Content-Security-Policy header or meta element to identify misconfigurations.'
+elementType: test_case

@@ -1,0 +1,2 @@
+While efforts can be made to use different cookie names (through changing configs), hiding or changing file/directory paths (through rewriting or source code changes), removing known headers, etc., such efforts boil down to "security through obscurity". System owners/administrators should recognize that such efforts only slow down the most rudimentary adversaries. The time and effort might be better spent on increasing stakeholder awareness and maintaining solutions.
+

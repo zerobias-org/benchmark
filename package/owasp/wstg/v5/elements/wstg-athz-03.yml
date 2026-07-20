@@ -1,0 +1,7 @@
+id: 2131ecc2-469a-4cd8-9ea3-2ef80531d19a
+name: Testing for Privilege Escalation
+externalId: WSTG-ATHZ-03
+description: |-
+  - Identify injection points related to privilege manipulation.
+  - Fuzz or otherwise attempt to bypass security measures.
+elementType: test_case

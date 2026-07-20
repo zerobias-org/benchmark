@@ -1,0 +1,5 @@
+id: bb0e3284-6703-418e-8a20-2f7eb65746ba
+name: Fingerprint Web Server
+externalId: WSTG-INFO-02
+description: '- Determine the version and type of a running web server to enable further discovery of any known vulnerabilities.'
+elementType: test_case

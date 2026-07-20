@@ -1,0 +1,5 @@
+id: efa949d0-be32-4c4e-a4a4-cf18ebe47d34
+name: Enumerate Infrastructure and Application Admin Interfaces
+externalId: WSTG-CONF-05
+description: '- Identify hidden administrator interfaces and functionality.'
+elementType: test_case

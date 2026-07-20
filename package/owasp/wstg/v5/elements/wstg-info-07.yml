@@ -1,0 +1,5 @@
+id: 88306acf-d622-4eea-9f59-8c52e2e1e09f
+name: Map Execution Paths Through Application
+externalId: WSTG-INFO-07
+description: '- Map the target application and understand the principal workflows.'
+elementType: test_case

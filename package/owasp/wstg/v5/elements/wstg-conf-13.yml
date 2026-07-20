@@ -1,0 +1,5 @@
+id: cb2fea4f-5d71-4d89-beb8-ab4109075dca
+name: Test Path Confusion
+externalId: WSTG-CONF-13
+description: '- Make sure application paths are configured correctly.'
+elementType: test_case

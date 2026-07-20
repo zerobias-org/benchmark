@@ -1,0 +1,7 @@
+id: efc89880-0766-49ff-85e1-e48042df6eb6
+name: Test for Subdomain Takeover
+externalId: WSTG-CONF-10
+description: |-
+  - Enumerate all possible domains (previous and current).
+  - Identify any forgotten or misconfigured domains.
+elementType: test_case

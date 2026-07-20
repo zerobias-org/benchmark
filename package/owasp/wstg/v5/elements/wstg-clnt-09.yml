@@ -1,0 +1,5 @@
+id: f6538250-4c96-4448-80b5-4c3d3e15c8a1
+name: Testing for Clickjacking
+externalId: WSTG-CLNT-09
+description: '- Assess application vulnerability to clickjacking attacks.'
+elementType: test_case

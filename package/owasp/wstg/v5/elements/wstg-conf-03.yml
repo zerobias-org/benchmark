@@ -1,0 +1,7 @@
+id: 40c9eda4-e1bf-47f6-91fc-da3b23c18e87
+name: Test File Extensions Handling for Sensitive Information
+externalId: WSTG-CONF-03
+description: |-
+  - Brute force sensitive file extensions that might contain raw data such as scripts, credentials, etc.
+  - Validate that no system framework bypasses exist for the rules that have been set
+elementType: test_case

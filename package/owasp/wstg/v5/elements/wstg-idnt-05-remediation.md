@@ -1,0 +1,1 @@
+Ensure the application returns consistent generic error messages in response to invalid account name, password or other user credentials entered during the log in process.

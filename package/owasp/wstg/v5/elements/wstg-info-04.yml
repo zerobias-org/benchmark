@@ -1,0 +1,5 @@
+id: baa107b0-b0cb-413e-b201-a7e4451ff0ca
+name: Enumerate Applications on Webserver
+externalId: WSTG-INFO-04
+description: '- Enumerate the applications within the scope that exist on a web server.'
+elementType: test_case

@@ -1,0 +1,5 @@
+id: f18cad1e-11e7-4814-b459-315a2f8fac29
+name: Test HTTP Strict Transport Security
+externalId: WSTG-CONF-07
+description: '- Review the HSTS header and its validity.'
+elementType: test_case

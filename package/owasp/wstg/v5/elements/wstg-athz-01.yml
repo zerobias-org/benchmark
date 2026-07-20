@@ -1,0 +1,7 @@
+id: 07843ddb-7b45-4f24-bba3-df6bae5917c8
+name: Testing Directory Traversal File Include
+externalId: WSTG-ATHZ-01
+description: |-
+  - Identify injection points that pertain to path traversal.
+  - Assess bypassing techniques and identify the extent of path traversal.
+elementType: test_case

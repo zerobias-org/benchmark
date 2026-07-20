@@ -1,0 +1,5 @@
+id: 0e04227c-968e-45fc-8ae6-932e66fdbd79
+name: Testing for Vulnerable Remember Password
+externalId: WSTG-ATHN-05
+description: '- Validate that the generated session is managed securely and do not put the user''s credentials in danger.'
+elementType: test_case
