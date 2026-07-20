@@ -1,0 +1,7 @@
+id: 80ded187-153c-4d99-ae64-867aa3cda2e5
+name: Testing for Insecure Direct Object References
+externalId: WSTG-ATHZ-04
+description: |-
+  - Identify points where object references may occur.
+  - Assess the access control measures and if they're vulnerable to IDOR.
+elementType: test_case

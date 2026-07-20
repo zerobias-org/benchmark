@@ -1,0 +1,11 @@
+id: 7a46c7f1-cf17-4ce1-9d18-001a4300bb53
+name: Test Upload of Malicious Files
+externalId: WSTG-BUSL-09
+description: |-
+  - Identify the file upload functionality.
+  - Review the project documentation to identify what file types are considered acceptable, and what types would be considered dangerous or malicious.
+      - If documentation is not available then consider what would be appropriate based on the purpose of the application.
+  - Determine how the uploaded files are processed.
+  - Obtain or create a set of malicious files for testing.
+  - Try to upload the malicious files to the application and determine whether it is accepted and processed.
+elementType: test_case

@@ -1,0 +1,5 @@
+id: d5b496e1-e454-427c-bc11-71ad2e07c017
+name: Testing for Weak Password Change or Reset Functionalities
+externalId: WSTG-ATHN-09
+description: '- Determine whether the password change and reset functionality allows accounts to be compromised.'
+elementType: test_case

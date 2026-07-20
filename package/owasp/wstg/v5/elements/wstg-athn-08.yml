@@ -1,0 +1,7 @@
+id: 0463d716-26f2-4aa3-8fd8-4725338c2b62
+name: Testing for Weak Security Question Answer
+externalId: WSTG-ATHN-08
+description: |-
+  - Determine the complexity and how straight-forward the questions are.
+  - Assess possible user answers and brute force capabilities.
+elementType: test_case

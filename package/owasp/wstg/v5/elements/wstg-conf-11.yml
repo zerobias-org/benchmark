@@ -1,0 +1,5 @@
+id: d6b62449-35d6-4817-bae9-0a33490d2f11
+name: Test Cloud Storage
+externalId: WSTG-CONF-11
+description: '- Assess that the access control configuration for the storage services is properly in place.'
+elementType: test_case

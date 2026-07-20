@@ -1,0 +1,7 @@
+id: 5978118b-adb8-47e1-8f6b-efb9d91478c4
+name: Testing for Weak Lock Out Mechanism
+externalId: WSTG-ATHN-03
+description: |-
+  - Evaluate the account lockout mechanism's ability to mitigate brute force password guessing.
+  - Evaluate the unlock mechanism's resistance to unauthorized account unlocking.
+elementType: test_case

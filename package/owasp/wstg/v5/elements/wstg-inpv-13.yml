@@ -1,0 +1,5 @@
+id: 11d577b5-0776-4d70-b8a7-3d99e099df0c
+name: Testing for Format String Injection
+externalId: WSTG-INPV-13
+description: '- Assess whether injecting format string conversion specifiers into user-controlled fields causes undesired behavior from the application.'
+elementType: test_case

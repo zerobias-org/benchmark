@@ -1,0 +1,8 @@
+id: a5b3782e-20d2-44ce-a482-385862b1ac3b
+name: Test Role Definitions
+externalId: WSTG-IDNT-01
+description: |-
+  - Identify and document roles used by the application.
+  - Attempt to switch, change, or access another role.
+  - Review the granularity of the roles and the needs behind the permissions given.
+elementType: test_case

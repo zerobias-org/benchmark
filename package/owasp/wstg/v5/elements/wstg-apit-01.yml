@@ -1,0 +1,8 @@
+id: 3213f377-a0ea-4d70-baca-95b2789e0c27
+name: API Reconnaissance
+externalId: WSTG-APIT-01
+description: |-
+  - Find all API endpoints supported by the backend server code, documented or undocumented.
+  - Find all parameters for each endpoint supported by the backend server, documented or undocumented.
+  - Discover interesting data related to APIs in HTML and JavaScript sent to clients.
+elementType: test_case

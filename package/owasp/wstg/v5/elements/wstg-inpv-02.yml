@@ -1,0 +1,7 @@
+id: 07abb3f5-5ac3-4378-8db9-db974b065f01
+name: Testing for Stored Cross Site Scripting
+externalId: WSTG-INPV-02
+description: |-
+  - Identify stored input that is reflected on the client-side.
+  - Assess the input they accept and the encoding that gets applied on return (if any).
+elementType: test_case

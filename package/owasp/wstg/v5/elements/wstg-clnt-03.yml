@@ -1,0 +1,5 @@
+id: 6e1f2fec-82b0-409b-a4ce-916882392155
+name: Testing for HTML Injection
+externalId: WSTG-CLNT-03
+description: '- Identify HTML injection points and assess the severity of the injected content.'
+elementType: test_case

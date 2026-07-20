@@ -1,0 +1,7 @@
+id: 136014c8-7068-4ef5-8fae-845b80254433
+name: Testing for HTTP Incoming Requests
+externalId: WSTG-INPV-16
+description: |-
+  - Monitor all incoming and outgoing HTTP requests to the Web Server to inspect any suspicious requests.
+  - Monitor HTTP traffic without changes of end user Browser proxy or client-side application.
+elementType: test_case

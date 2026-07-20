@@ -1,0 +1,5 @@
+id: a9085d68-324b-4dbc-bd8e-ccc1d88805ab
+name: Review Old Backup and Unreferenced Files for Sensitive Information
+externalId: WSTG-CONF-04
+description: '- Find and analyse unreferenced files that might contain sensitive information.'
+elementType: test_case

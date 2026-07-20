@@ -1,0 +1,7 @@
+id: d2554a75-10a5-40b3-87e2-39d3e203527c
+name: Testing for SSI Injection
+externalId: WSTG-INPV-08
+description: |-
+  - Identify SSI injection points.
+  - Assess the severity of the injection.
+elementType: test_case

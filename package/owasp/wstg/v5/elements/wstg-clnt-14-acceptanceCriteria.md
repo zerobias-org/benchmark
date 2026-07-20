@@ -1,0 +1,3 @@
+- Check the HTML source of the application to see if links with `target="_blank"` are using the `noopener` and `noreferrer` keywords in the `rel` attribute. If not, it is likely that the application is vulnerable to reverse tabnabbing. Such a link becomes exploitable if it either points to a third-party site that has been compromised by the attacker, or if it is user-controlled.
+- Check for areas where an attacker can insert links, i.e. control the `href` argument of an `<a>` tag. Try to insert a link to a page which has the source code given in the above example, and see if the original domain redirects. This test can be done in IE if other browsers don't work.
+

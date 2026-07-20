@@ -1,0 +1,5 @@
+id: 2645c933-b43f-40fe-960a-1b294b0b1346
+name: Testing for Bypassing Authentication Schema
+externalId: WSTG-ATHN-04
+description: '- Ensure that authentication is applied across all services that require it.'
+elementType: test_case

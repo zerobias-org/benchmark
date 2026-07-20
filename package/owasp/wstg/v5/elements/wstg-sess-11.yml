@@ -1,0 +1,5 @@
+id: d90ebc26-4b60-4976-b616-61aa54bee267
+name: Testing for Concurrent Sessions
+externalId: WSTG-SESS-11
+description: '- Evaluate the application''s session management by assessing the handling of multiple active sessions for a single user account.'
+elementType: test_case

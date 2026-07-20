@@ -1,0 +1,5 @@
+id: 264eb156-a7e9-4907-81c6-94a47c6bfdef
+name: Testing for Bypassing Authorization Schema
+externalId: WSTG-ATHZ-02
+description: '- Assess if horizontal or vertical access is possible.'
+elementType: test_case

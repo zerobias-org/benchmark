@@ -1,0 +1,5 @@
+id: c77a0e49-9098-49f2-a47f-c86c85841662
+name: Fingerprint Web Application Framework
+externalId: WSTG-INFO-08
+description: '- Fingerprint the components used by the web applications.'
+elementType: test_case

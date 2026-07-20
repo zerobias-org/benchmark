@@ -1,0 +1,5 @@
+id: 86909ec6-373e-4c9f-8372-b5e832fb11e4
+name: Testing for HTTP Verb Tampering
+externalId: WSTG-INPV-03
+description: Testing for HTTP Verb Tampering
+elementType: test_case

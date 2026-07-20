@@ -1,0 +1,7 @@
+id: 9bf1a61b-0850-4084-8743-427c880090d9
+name: Test Ability to Forge Requests
+externalId: WSTG-BUSL-02
+description: |-
+  - Review the project documentation looking for guessable, predictable, or hidden functionality of fields.
+  - Insert logically valid data in order to bypass normal business logic workflow.
+elementType: test_case

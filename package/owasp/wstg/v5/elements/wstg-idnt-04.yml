@@ -1,0 +1,7 @@
+id: d10e9427-7386-46f1-8211-1effa1cab08a
+name: Testing for Account Enumeration and Guessable User Account
+externalId: WSTG-IDNT-04
+description: |-
+  - Review processes that pertain to user identification (*e.g.* registration, login, etc.).
+  - Enumerate users where possible through response analysis.
+elementType: test_case

@@ -1,0 +1,5 @@
+id: 9488e681-a6ff-4f96-8f5a-1257e6613ca9
+name: Testing for Cookies Attributes
+externalId: WSTG-SESS-02
+description: '- Ensure that the proper security configuration is set for cookies.'
+elementType: test_case

@@ -1,0 +1,24 @@
+The application must ensure that only logically valid data can be entered at the frontend as well as directly to the server-side of an application or system. Only verifying data on the client/frontend may leave applications vulnerable to server injections through proxies or at handoffs with other systems. This is different from simply performing Boundary Value Analysis (BVA) in that it is more difficult and in most cases cannot be simply verified at the entry point, but usually requires checking some other system.
+
+For example: An application may ask for your Social Security Number. In BVA, the application should check formats and semantics (is the value 9 digits long, not negative, and not all 0's) for the data entered, but there are logic considerations also. SSNs are grouped and categorized. Is this person on a death file? Are they from a certain part of the country?
+
+Vulnerabilities related to business data validation is unique in that they are application specific and different from the vulnerabilities related to forging requests in that they are more concerned about logical data as opposed to simply breaking the business logic workflow.
+
+The frontend and the backend of the application should be verifying and validating that the data it has, is using, and is passing along is logically valid. Even if the user provides valid data to an application the business logic may make the application behave differently depending on data or circumstances.
+
+# Example 1
+
+Suppose you manage a multi-tiered e-commerce site that allows users to order carpet. The user selects their carpet, enters the size, makes the payment, and the frontend application has verified that all entered information is correct and valid for contact information, size, make and color of the carpet. But, the business logic in the background has two paths, if the carpet is in stock it is directly shipped from your warehouse, but if it is out of stock in your warehouse a call is made to a partner’s system and if they have it in-stock they will ship the order from their warehouse and reimbursed by them. What happens if an attacker is able to continue a valid in-stock transaction and send it as out-of-stock to your partner? What happens if an attacker is able to get in the middle and send messages to the partner warehouse ordering carpet without payment?
+
+# Example 2
+
+Many credit card systems are now downloading account balances nightly so the customers can check out more quickly for amounts under a certain value. The inverse is also true. If I pay my credit card off in the morning I may not be able to use the available credit in the evening. Another example may be if I use my credit card at multiple locations very quickly it may be possible to exceed my limit if the systems are basing decisions on last night’s data.
+
+# Example 3
+
+**[Distributed Denial of Dollar (DDo$)](https://news.hitb.org/content/pirate-bay-proposes-distributed-denial-dollars-attack-ddo):**
+This was a campaign that was proposed by the founder of the site "The Pirate Bay" against the law firm who brought prosecutions against "The Pirate Bay". The goal was to take advantage of errors in the design of business features and in the process of credit transfer validation.
+
+This attack was performed by sending very small amounts of money of 1 SEK ($0.13 USD) to the law firm.
+The bank account to which the payments were directed had only 1000 free transfers, after which any transfers have a surcharge for the account holder (2 SEK). After the first thousand internet transactions every 1 SEK donation to the law firm will actually end up costing it 1 SEK instead.
+

@@ -1,0 +1,5 @@
+id: 39e5cf7d-9db0-4948-a9cc-7b99929e2f12
+name: Testing for Weak Password Policy
+externalId: WSTG-ATHN-07
+description: '- Determine the resistance of the application against brute force password guessing using available password dictionaries by evaluating the length, complexity, reuse, and aging requirements of passwords.'
+elementType: test_case

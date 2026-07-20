@@ -1,0 +1,5 @@
+id: 9b684448-0053-480a-a393-fa67e32624ca
+name: Testing for XPath Injection
+externalId: WSTG-INPV-09
+description: '- Identify XPATH injection points.'
+elementType: test_case

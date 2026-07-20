@@ -1,0 +1,5 @@
+id: d8c45357-24d7-4031-a9cc-95d6b6772f19
+name: Testing for OAuth Weaknesses
+externalId: WSTG-ATHZ-05
+description: '- Determine if OAuth2 implementation is vulnerable or using a deprecated or custom implementation.'
+elementType: test_case

@@ -1,0 +1,8 @@
+id: 257074a4-3264-4f27-a121-735c3157f6bc
+name: Review Web Page Content for Information Leakage
+externalId: WSTG-INFO-05
+description: |-
+  - Review web page comments, metadata, and redirect bodies to find any information leakage.
+  - Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.
+  - Identify if source map files or other frontend debug files exist.
+elementType: test_case

@@ -1,0 +1,5 @@
+id: 47a5de79-6548-41ed-9609-db784a0958d3
+name: Testing for JavaScript Execution
+externalId: WSTG-CLNT-02
+description: '- Identify sinks and possible JavaScript injection points.'
+elementType: test_case
