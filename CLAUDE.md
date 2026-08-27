@@ -8,7 +8,7 @@ This is the **ZeroBias Community Benchmark Repository** containing open-source s
 
 **Repository Role:** Community-contributed security benchmarks (CIS, STIG patterns)
 
-This repository follows the same structure as `auditlogic/benchmark` but contains community-contributed, open-source benchmarks.
+This repository contains community-contributed, open-source benchmarks; a proprietary counterpart repository follows the same structure.
 
 ## Current Status
 
@@ -92,9 +92,7 @@ the gradle pipeline is the build/publish system. Don't reintroduce lerna or nx c
 
 - **[Root CLAUDE.md](../../CLAUDE.md)** - Meta-repo guidance
 - **[ContentArtifacts.md](../../ContentArtifacts.md)** - Content catalog system
-- **[auditlogic/benchmark/CLAUDE.md](../../auditlogic/benchmark/CLAUDE.md)** - Proprietary benchmarks (same pattern)
-- **[auditlogic/standard/CLAUDE.md](../../auditlogic/standard/CLAUDE.md)** - Standard structure
-- **[auditmation/platform/dataloader/CLAUDE.md](../../auditmation/platform/dataloader/CLAUDE.md)** - Dataloader processor
+- **[standard/ repo](../standard/)** - Standard structure (sibling open-source repo)
 
 ---
 
