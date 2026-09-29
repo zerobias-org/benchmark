@@ -1,7 +1,5 @@
 id: 532d4b63-66a7-45ab-87e6-a207f9fb4761
 name: Testing for Improper Error Handling
 externalId: WSTG-ERRH-01
-description: |-
-  - Identify existing error output.
-  - Analyze the different output returned.
+description: Identify the application's error output and analyze the different responses returned to detect improper error handling.
 elementType: test_case

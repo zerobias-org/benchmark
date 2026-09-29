@@ -1,3 +1,6 @@
+- Identify sensitive information transmitted through the various channels.
+- Assess the privacy and security of the channels used.
+
 Sensitive data must be protected when it is transmitted through the network. If data is transmitted over HTTPS or encrypted in another way the protection mechanism must not have limitations or vulnerabilities, as explained in the broader article [Testing for Weak Transport Layer Security](01-Testing_for_Weak_Transport_Layer_Security.md) and in other OWASP documentation:
 
 - [OWASP Top 10 2017 A3-Sensitive Data Exposure](https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure).

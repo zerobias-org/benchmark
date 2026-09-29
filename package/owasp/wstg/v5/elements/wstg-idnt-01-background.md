@@ -1,3 +1,7 @@
+- Identify and document roles used by the application.
+- Attempt to switch, change, or access another role.
+- Review the granularity of the roles and the needs behind the permissions given.
+
 Applications have several types of functionalities and services, and those require access permissions based on the needs of the user. That user could be:
 
 - an administrator, where they manage the application functionalities.

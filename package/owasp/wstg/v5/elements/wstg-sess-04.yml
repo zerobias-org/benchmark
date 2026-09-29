@@ -1,8 +1,5 @@
 id: d14dff07-c339-4449-ad89-1cd936261a69
 name: Testing for Exposed Session Variables
 externalId: WSTG-SESS-04
-description: |-
-  - Ensure that proper encryption is implemented.
-  - Review the caching configuration.
-  - Assess the channel and methods' security.
+description: Ensure session data is properly encrypted, review the caching configuration, and assess the security of the channels and methods used.
 elementType: test_case

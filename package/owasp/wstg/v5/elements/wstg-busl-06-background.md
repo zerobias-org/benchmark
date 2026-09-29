@@ -1,3 +1,6 @@
+- Review the project documentation for methods to skip or go through steps in the application process in a different order from the intended business logic flow.
+- Develop a misuse case and try to circumvent every logic flow identified.
+
 Workflow vulnerabilities involve any type of vulnerability that allows the attacker to misuse an application/system in a way that will allow them to circumvent (not follow) the designed/intended workflow.
 
 [Definition of a workflow on Wikipedia](https://en.wikipedia.org/wiki/Workflow):

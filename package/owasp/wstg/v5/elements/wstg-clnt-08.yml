@@ -1,7 +1,5 @@
 id: a6e7c16e-e5a4-4e30-aba4-c64fbe69e8e0
 name: Testing for Cross Site Flashing
 externalId: WSTG-CLNT-08
-description: |-
-  - Decompile and analyze the application's code.
-  - Assess sinks inputs and unsafe method usages.
+description: Decompile and analyze the application's code to assess sink inputs and unsafe method usages that could enable cross-site flashing.
 elementType: test_case

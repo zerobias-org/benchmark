@@ -1,7 +1,5 @@
 id: 42f83c31-ff12-469b-8563-a778e5905a51
 name: Testing for Weak or Unenforced Username Policy
 externalId: WSTG-IDNT-05
-description: |-
-  - Determine whether a consistent account name structure renders the application vulnerable to account enumeration.
-  - Determine whether the application's error messages permit account enumeration.
+description: Determine whether a predictable account name structure or revealing error messages make the application vulnerable to account enumeration.
 elementType: test_case

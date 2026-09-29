@@ -1,7 +1,5 @@
 id: 92a0736c-9281-4699-9b76-99059726b55b
 name: Test for Process Timing
 externalId: WSTG-BUSL-04
-description: |-
-  - Review the project documentation for system functionality that may be impacted by time.
-  - Develop and execute misuse cases.
+description: Review functionality that time may affect and develop misuse cases that exploit timing to bypass business logic.
 elementType: test_case

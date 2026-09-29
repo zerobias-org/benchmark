@@ -1,3 +1,6 @@
+- Assess the security of the message's origin.
+- Validate that it's using safe methods and validating its input.
+
 Web Messaging (also known as [Cross Document Messaging](https://html.spec.whatwg.org/multipage/web-messaging.html#web-messaging)) allows applications running on different domains to communicate in a secure manner. Before the introduction of web messaging, the communication of different origins (between iframes, tabs and windows) was restricted by the same origin policy and enforced by the browser. Developers used multiple hacks in order to accomplish these tasks, and most of them were mainly insecure.
 
 This restriction within the browser is in place to prevent a malicious website from reading confidential data from other iframes, tabs, etc; however, there are some legitimate cases where two trusted websites need to exchange data with each other. To meet this need, Cross Document Messaging was introduced in the [WHATWG HTML5](https://html.spec.whatwg.org/multipage/) draft specification and was implemented in all major browsers. It enables secure communications between multiple origins across iframes, tabs and windows.

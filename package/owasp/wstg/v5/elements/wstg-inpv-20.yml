@@ -1,7 +1,5 @@
 id: 21ef4d8f-4dfd-476a-ba80-9321a52c8ca0
 name: Testing for Mass Assignment
 externalId: WSTG-INPV-20
-description: |-
-  - Identify requests that modify objects
-  - Assess if it is possible to modify fields never intended to be modified from outside
+description: Identify requests that modify objects and assess whether fields never intended to be set from outside can be modified anyway.
 elementType: test_case

@@ -1,7 +1,5 @@
 id: 77ceb7cd-829f-498b-932a-9e86dffcd23d
 name: Testing JSON Web Tokens
 externalId: WSTG-SESS-10
-description: |-
-  - Determine whether the JWTs expose sensitive information.
-  - Determine whether the JWTs can be tampered with or modified.
+description: Determine whether JSON Web Tokens expose sensitive information and whether they can be tampered with or modified.
 elementType: test_case

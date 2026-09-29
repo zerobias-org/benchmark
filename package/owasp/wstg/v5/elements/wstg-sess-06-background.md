@@ -1,3 +1,6 @@
+- Assess the logout UI.
+- Analyze the session timeout and if the session is properly killed after logout.
+
 Session termination is an important part of the session lifecycle. Reducing to a minimum the lifetime of the session tokens decreases the likelihood of a successful session hijacking attack. This can be seen as a control against preventing other attacks like Cross Site Scripting and Cross Site Request Forgery. Such attacks have been known to rely on a user having an authenticated session present. Not having a secure session termination only increases the attack surface for any of these attacks.
 
 A secure session termination requires at least the following components:

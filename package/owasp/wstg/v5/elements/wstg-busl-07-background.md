@@ -1,3 +1,7 @@
+- Generate notes from all tests conducted against the system.
+- Review which tests had a different functionality based on aggressive input.
+- Understand the defenses in place and verify if they are enough to protect the system against bypassing techniques.
+
 The misuse and invalid use of valid functionality can identify attacks attempting to enumerate the web application, identify weaknesses, and exploit vulnerabilities. Tests should be undertaken to determine whether there are application-layer defensive mechanisms in place to protect the application.
 
 The lack of active defenses allows an attacker to hunt for vulnerabilities without any recourse. The application's owner will thus not know their application is under attack.

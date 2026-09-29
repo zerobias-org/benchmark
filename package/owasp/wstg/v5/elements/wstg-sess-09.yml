@@ -1,7 +1,5 @@
 id: e5bd2df3-659d-4042-963a-1637f56c5d70
 name: Testing for Session Hijacking
 externalId: WSTG-SESS-09
-description: |-
-  - Identify vulnerable session cookies.
-  - Hijack vulnerable cookies and assess the risk level.
+description: Identify vulnerable session cookies and attempt to hijack them to assess the resulting risk level.
 elementType: test_case

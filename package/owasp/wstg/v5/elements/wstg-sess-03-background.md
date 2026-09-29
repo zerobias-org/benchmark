@@ -1,3 +1,6 @@
+- Analyze the authentication mechanism and its flow.
+- Force cookies and assess the impact.
+
 Session fixation is enabled by the insecure practice of preserving the same value of the session cookies before and after authentication. This typically happens when session cookies are used to store state information even before login, e.g., to add items to a shopping cart before authenticating for payment.
 
 In the generic exploit of session fixation vulnerabilities, an attacker can obtain a set of session cookies from the target site without first authenticating. The attacker can then force these cookies into the victim's browser using different techniques. If the victim later authenticates at the target site and the cookies are not refreshed upon login, the victim will be identified by the session cookies chosen by the attacker. The attacker is then able to impersonate the victim with these known cookies.

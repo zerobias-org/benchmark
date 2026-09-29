@@ -1,7 +1,5 @@
 id: a5ddc006-dd26-48ac-ab45-9b126679b17a
 name: Testing for Browser Cache Weaknesses
 externalId: WSTG-ATHN-06
-description: |-
-  - Review if the application stores sensitive information on the client-side.
-  - Review if access can occur without authorization.
+description: Review whether the application stores sensitive information client-side in ways that allow unauthorized access.
 elementType: test_case

@@ -1,8 +1,5 @@
 id: 4109a8fd-d6d3-47d3-a0b5-8d7c84ee2e14
 name: Test Payment Functionality
 externalId: WSTG-BUSL-10
-description: |-
-  - Determine whether the business logic for the e-commerce functionality is robust.
-  - Understand how the payment functionality works.
-  - Determine whether the payment functionality is secure.
+description: Determine whether e-commerce payment functionality is robust and secure by analyzing how the payment process works.
 elementType: test_case

@@ -1,7 +1,5 @@
 id: 2d675a13-954c-44e1-9ccb-5bd9c9af7878
 name: Testing for Host Header Injection
 externalId: WSTG-INPV-17
-description: |-
-  - Assess if the Host header is being parsed dynamically in the application.
-  - Bypass security controls that rely on the header.
+description: Assess whether the Host header is parsed dynamically and attempt to bypass security controls that rely on it.
 elementType: test_case

@@ -1,8 +1,5 @@
 id: 41156cda-c9a8-43f0-ae84-9a21005aad65
 name: Testing for Server-side Template Injection
 externalId: WSTG-INPV-18
-description: |-
-  - Detect template injection vulnerability points.
-  - Identify the templating engine.
-  - Build the exploit.
+description: Detect server-side template injection vulnerability points, identify the templating engine in use, and build a working exploit.
 elementType: test_case

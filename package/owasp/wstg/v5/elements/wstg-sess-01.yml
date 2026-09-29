@@ -1,8 +1,5 @@
 id: 534da305-0f0b-45d2-b75a-d6c24f95f6c1
 name: Testing for Session Management Schema
 externalId: WSTG-SESS-01
-description: |-
-  - Gather session tokens, for the same user and for different users where possible.
-  - Analyze and ensure that enough randomness exists to stop session forging attacks.
-  - Modify cookies that are not signed and contain information that can be manipulated.
+description: Gather session tokens across users, analyze whether they contain enough randomness to resist forging, and check for unsigned cookies holding manipulable data.
 elementType: test_case

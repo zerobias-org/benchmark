@@ -1,7 +1,5 @@
 id: cab10ea8-c41d-4836-ae1c-57b6a1e9118c
 name: Testing for DOM-Based Cross Site Scripting
 externalId: WSTG-CLNT-01
-description: |-
-  - Identify DOM sinks.
-  - Build payloads that pertain to every sink type.
+description: Identify DOM sinks and build payloads tailored to each sink type to test for DOM-based cross-site scripting.
 elementType: test_case

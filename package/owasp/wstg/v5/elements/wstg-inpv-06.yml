@@ -1,7 +1,5 @@
 id: ae2196c6-ebb9-4fc4-9915-e406c573d699
 name: Testing for LDAP Injection
 externalId: WSTG-INPV-06
-description: |-
-  - Identify LDAP injection points.
-  - Assess the severity of the injection.
+description: Identify LDAP injection points and assess the severity of the injection.
 elementType: test_case

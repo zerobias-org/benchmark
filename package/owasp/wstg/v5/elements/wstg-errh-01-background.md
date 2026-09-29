@@ -1,3 +1,6 @@
+- Identify existing error output.
+- Analyze the different output returned.
+
 All types of applications (web apps, web servers, databases, etc.) will generate errors for various reasons. Developers often ignore handling these errors, or push away the idea that a user will ever try to trigger an error purposefully (*e.g.* sending a string where an integer is expected). When the developer only consider the happy path, they forget all other possible user-input the code can receive but can't handle.
 
 Errors sometimes rise as:

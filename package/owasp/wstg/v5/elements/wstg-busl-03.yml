@@ -1,9 +1,5 @@
 id: dffe60b0-dc50-4d7d-a11e-9c061ebf1a79
 name: Test Integrity Checks
 externalId: WSTG-BUSL-03
-description: |-
-  - Review the project documentation for components of the system that move, store, or handle data.
-  - Determine what type of data is logically acceptable by the component and what types the system should guard against.
-  - Determine who should be allowed to modify or read that data in each component.
-  - Attempt to insert, update, or delete data values used by each component that should not be allowed per the business logic workflow.
+description: Determine what data each system component should accept and who may modify or read it, then attempt unauthorized inserts, updates, or deletes.
 elementType: test_case

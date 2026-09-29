@@ -1,8 +1,5 @@
 id: 45c026b6-a26e-4ed2-9240-2d0b7627c3a3
 name: Test Upload of Unexpected File Types
 externalId: WSTG-BUSL-08
-description: |-
-  - Review the project documentation for file types that are rejected by the system.
-  - Verify that the unwelcomed file types are rejected and handled safely.
-  - Verify that file batch uploads are secure and do not allow any bypass against the set security measures.
+description: Verify that file types the application is meant to reject are actually rejected, and that batch file uploads cannot bypass those restrictions.
 elementType: test_case

@@ -1,7 +1,5 @@
 id: 99d8f62c-f355-45d1-9d1b-c8f06c5537ea
 name: Testing for Padding Oracle
 externalId: WSTG-CRYP-02
-description: |-
-  - Identify encrypted messages that rely on padding.
-  - Attempt to break the padding of the encrypted messages and analyze the returned error messages for further analysis.
+description: Identify encrypted messages relying on padding and attempt to break that padding by analyzing the resulting error messages.
 elementType: test_case

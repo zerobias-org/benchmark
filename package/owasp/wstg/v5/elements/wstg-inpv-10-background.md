@@ -1,3 +1,7 @@
+- Identify IMAP/SMTP injection points.
+- Understand the data flow and deployment structure of the system.
+- Assess the injection impacts.
+
 This threat affects all applications that communicate with mail servers (IMAP/SMTP), generally webmail applications. The aim of this test is to verify the capacity to inject arbitrary IMAP/SMTP commands into the mail servers, due to input data not being properly sanitized.
 
 The IMAP/SMTP Injection technique is more effective if the mail server is not directly accessible from Internet. Where full communication with the backend mail server is possible, it is recommended to conduct direct testing.

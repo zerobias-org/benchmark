@@ -1,3 +1,6 @@
+- Identify all session variables.
+- Break the logical flow of session generation.
+
 Session Variable Overloading (also known as Session Puzzling) is an application level vulnerability which can enable an attacker to perform a variety of malicious actions, including but not limited to:
 
 - Bypass efficient authentication enforcement mechanisms, and impersonate legitimate users.

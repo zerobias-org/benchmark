@@ -1,7 +1,5 @@
 id: b718661a-d90d-47c4-8e82-9da874c81d8b
 name: Testing for Default Credentials
 externalId: WSTG-ATHN-02
-description: |-
-  - Determine whether the application has any user accounts with default passwords.
-  - Review whether new user accounts are created with weak or predictable passwords.
+description: Determine whether accounts use default passwords and whether new accounts are created with weak or predictable passwords.
 elementType: test_case

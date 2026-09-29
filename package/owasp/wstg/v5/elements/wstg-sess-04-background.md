@@ -1,3 +1,7 @@
+- Ensure that proper encryption is implemented.
+- Review the caching configuration.
+- Assess the channel and methods' security.
+
 The Session Tokens (Cookie, SessionID, Hidden Field), if exposed, will usually enable an attacker to impersonate a victim and access the application illegitimately. It is important that they are protected from eavesdropping at all times, particularly whilst in transit between the client browser and the application servers.
 
 The information here relates to how transport security applies to the transfer of sensitive Session ID data rather than data in general, and may be stricter than the caching and transport policies applied to the data served by the site.

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/benchmark-owasp-wstg-v5",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "OWASP  Web Security Testing Guide  v5 benchmark",
   "author": "team@zerobias.com",
   "license": "CC-BY-SA-4.0",

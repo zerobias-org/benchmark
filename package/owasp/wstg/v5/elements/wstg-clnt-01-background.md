@@ -1,3 +1,6 @@
+- Identify DOM sinks.
+- Build payloads that pertain to every sink type.
+
 [DOM-based cross-site scripting](https://owasp.org/www-community/attacks/DOM_Based_XSS) is the de-facto name for [XSS](https://owasp.org/www-community/attacks/xss/) bugs that are the result of active browser-side content on a page, typically JavaScript, obtaining user input through a [source](https://github.com/wisec/domxsswiki/wiki/sources) and using it in a [sink](https://github.com/wisec/domxsswiki/wiki/Sinks), leading to the execution of injected code. This document only discusses JavaScript bugs which lead to XSS.
 
 The DOM, or [Document Object Model](https://en.wikipedia.org/wiki/Document_Object_Model), is the structural format used to represent documents in a browser. The DOM enables dynamic scripts such as JavaScript to reference components of the document such as a form field or a session cookie. The DOM is also used by the browser for security - for example to limit scripts on different domains from obtaining session cookies for other domains. A DOM-based XSS vulnerability may occur when active content, such as a JavaScript function, is modified by a specially crafted request such that a DOM element that can be controlled by an attacker.

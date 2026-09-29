@@ -1,8 +1,5 @@
 id: 554b7ce0-2b80-46c2-85b6-6b6b082e2e0e
 name: Test Business Logic Data Validation
 externalId: WSTG-BUSL-01
-description: |-
-  - Identify data injection points.
-  - Validate that all checks are occurring on the backend and can't be bypassed.
-  - Attempt to break the format of the expected data and analyze how the application is handling it.
+description: Identify data injection points, verify validation occurs on the backend and cannot be bypassed, and test how malformed data is handled.
 elementType: test_case

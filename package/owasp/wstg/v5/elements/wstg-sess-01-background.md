@@ -1,3 +1,7 @@
+- Gather session tokens, for the same user and for different users where possible.
+- Analyze and ensure that enough randomness exists to stop session forging attacks.
+- Modify cookies that are not signed and contain information that can be manipulated.
+
 One of the core components of any web-based application is the mechanism by which it controls and maintains the state for a user interacting with it. To avoid continuous authentication for each page of a site or service, web applications implement various mechanisms to store and validate credentials for a pre-determined timespan. These mechanisms are known as Session Management.
 
 In this test, the tester wants to check that cookies and other session tokens are created in a secure and unpredictable way. An attacker who is able to predict and forge a weak cookie can easily hijack the sessions of legitimate users.

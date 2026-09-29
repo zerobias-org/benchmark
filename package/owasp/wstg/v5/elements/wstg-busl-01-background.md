@@ -1,3 +1,7 @@
+- Identify data injection points.
+- Validate that all checks are occurring on the backend and can't be bypassed.
+- Attempt to break the format of the expected data and analyze how the application is handling it.
+
 The application must ensure that only logically valid data can be entered at the frontend as well as directly to the server-side of an application or system. Only verifying data on the client/frontend may leave applications vulnerable to server injections through proxies or at handoffs with other systems. This is different from simply performing Boundary Value Analysis (BVA) in that it is more difficult and in most cases cannot be simply verified at the entry point, but usually requires checking some other system.
 
 For example: An application may ask for your Social Security Number. In BVA, the application should check formats and semantics (is the value 9 digits long, not negative, and not all 0's) for the data entered, but there are logic considerations also. SSNs are grouped and categorized. Is this person on a death file? Are they from a certain part of the country?

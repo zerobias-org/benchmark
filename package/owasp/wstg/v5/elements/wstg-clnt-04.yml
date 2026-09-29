@@ -1,7 +1,5 @@
 id: 46a651c2-92e4-47eb-b2fd-e5aa5fe2bb00
 name: Testing for Client-side URL Redirect
 externalId: WSTG-CLNT-04
-description: |-
-  - Identify injection points that handle URLs or paths.
-  - Assess the locations that the system could redirect to.
+description: Identify injection points that handle URLs or paths and assess where the application could be made to redirect.
 elementType: test_case
