@@ -1,7 +1,5 @@
 id: d2bd7d95-0bc7-47ee-bf09-5672216ca7c2
 name: Testing for the Circumvention of Work Flows
 externalId: WSTG-BUSL-06
-description: |-
-  - Review the project documentation for methods to skip or go through steps in the application process in a different order from the intended business logic flow.
-  - Develop a misuse case and try to circumvent every logic flow identified.
+description: Identify ways to skip or reorder steps in the application's process and develop misuse cases to circumvent each business logic flow found.
 elementType: test_case

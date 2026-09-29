@@ -1,7 +1,5 @@
 id: 782b2f81-45ed-4b5d-a8ab-abe64b9c4cbe
 name: Testing for Cross Site Script Inclusion
 externalId: WSTG-CLNT-13
-description: |-
-  - Locate sensitive data across the system.
-  - Assess the leakage of sensitive data through various techniques.
+description: Locate sensitive data across the system and assess whether it can leak through cross-site script inclusion techniques.
 elementType: test_case

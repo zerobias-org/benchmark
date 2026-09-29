@@ -1,3 +1,6 @@
+- Review the project documentation for system functionality that may be impacted by time.
+- Develop and execute misuse cases.
+
 It is possible that attackers can gather information on an application by monitoring the time it takes to complete a task or give a response. Additionally, attackers may be able to manipulate and break designed business process flows by simply keeping active sessions open and not submitting their transactions in the "expected" time frame.
 
 Process timing logic vulnerabilities are unique in that these manual misuse cases should be created considering execution and transaction timing that are application/system specific.

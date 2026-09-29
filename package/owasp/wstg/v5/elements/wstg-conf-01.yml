@@ -1,7 +1,5 @@
 id: 6ec95cba-5389-45af-9fca-fb81fcb4a8c2
 name: Test Network Infrastructure Configuration
 externalId: WSTG-CONF-01
-description: |-
-  - Review the applications' configurations set across the network and validate that they are not vulnerable.
-  - Validate that used frameworks and systems are secure and not susceptible to known vulnerabilities due to unmaintained software or default settings and credentials.
+description: Review network-wide application configurations for vulnerabilities and verify that frameworks and systems are patched and not left with default settings or credentials.
 elementType: test_case

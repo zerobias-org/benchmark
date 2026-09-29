@@ -1,2 +1,6 @@
+- Determine whether the business logic for the e-commerce functionality is robust.
+- Understand how the payment functionality works.
+- Determine whether the payment functionality is secure.
+
 Many applications implement payment functionality, including e-commerce sites, subscriptions, charities, donation sites and currency exchanges. The security of this functionality is critical, as vulnerabilities could allow attackers to steal from the organization, make fraudulent purchases, or even to steal payment card details from other users. These issue could result in not only reputational damage to the organization, but also significant financial losses, both from direct losses and fines from industry regulators.
 

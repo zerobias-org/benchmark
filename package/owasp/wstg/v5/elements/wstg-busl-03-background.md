@@ -1,3 +1,8 @@
+- Review the project documentation for components of the system that move, store, or handle data.
+- Determine what type of data is logically acceptable by the component and what types the system should guard against.
+- Determine who should be allowed to modify or read that data in each component.
+- Attempt to insert, update, or delete data values used by each component that should not be allowed per the business logic workflow.
+
 Many applications are designed to display different fields depending on the user or situation by leaving some inputs hidden. However, in many cases it is possible to submit hidden field values to the server using a proxy. In these cases the server-side controls must be smart enough to perform relational or server-side edits to ensure that the proper data is allowed to the server based on user and application specific business logic.
 
 Additionally, the application must not depend on non-editable controls, drop-down menus or hidden fields for business logic processing because these fields remain non-editable only in the context of the browsers. Users may be able to edit their values using proxy editor tools and try to manipulate business logic. If the application exposes values related to business rules like quantity, etc. as non-editable fields, it must maintain a copy on the server-side and use the same for business logic processing. Finally, aside from application/system data, log systems must be secured to prevent read, writing, and updating.

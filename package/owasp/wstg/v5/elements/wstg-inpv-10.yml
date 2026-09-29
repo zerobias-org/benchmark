@@ -1,8 +1,5 @@
 id: 29d72ff5-4649-46e4-870e-54e857d3173f
 name: Testing for IMAP SMTP Injection
 externalId: WSTG-INPV-10
-description: |-
-  - Identify IMAP/SMTP injection points.
-  - Understand the data flow and deployment structure of the system.
-  - Assess the injection impacts.
+description: Identify IMAP or SMTP injection points, understand the system's data flow and deployment structure, and assess the impact of the injection.
 elementType: test_case

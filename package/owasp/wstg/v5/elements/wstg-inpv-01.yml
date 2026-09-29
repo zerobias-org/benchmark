@@ -1,7 +1,5 @@
 id: bfd52780-2fc4-4160-a9fe-9141825324dd
 name: Testing for Reflected Cross Site Scripting
 externalId: WSTG-INPV-01
-description: |-
-  - Identify variables that are reflected in responses.
-  - Assess the input they accept and the encoding that gets applied on return (if any).
+description: Identify variables reflected in application responses and assess the input they accept and any encoding applied before it is returned.
 elementType: test_case

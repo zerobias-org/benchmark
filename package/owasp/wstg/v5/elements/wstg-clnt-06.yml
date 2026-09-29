@@ -1,7 +1,5 @@
 id: 15ac109f-d8e5-42d7-86e9-435eeae7b8ee
 name: Testing for Client-side Resource Manipulation
 externalId: WSTG-CLNT-06
-description: |-
-  - Identify sinks with weak input validation.
-  - Assess the impact of the resource manipulation.
+description: Identify sinks with weak input validation and assess the impact of manipulating client-side resources through them.
 elementType: test_case

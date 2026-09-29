@@ -1,3 +1,6 @@
+- Evaluate the account lockout mechanism's ability to mitigate brute force password guessing.
+- Evaluate the unlock mechanism's resistance to unauthorized account unlocking.
+
 Account lockout mechanisms are used to mitigate brute force attacks. Some of the attacks that can be defeated by using lockout mechanism:
 
 - Login password or username guessing attack.

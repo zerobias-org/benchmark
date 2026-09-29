@@ -1,7 +1,5 @@
 id: 8dc56b41-7248-4e22-89bd-26a29bd9e09c
 name: Testing for HTTP Splitting Smuggling
 externalId: WSTG-INPV-15
-description: |-
-  - Assess if the application is vulnerable to splitting, identifying what possible attacks are achievable.
-  - Assess if the chain of communication is vulnerable to smuggling, identifying what possible attacks are achievable.
+description: Assess whether the application is vulnerable to HTTP splitting or request smuggling and identify the attacks each vulnerability could enable.
 elementType: test_case

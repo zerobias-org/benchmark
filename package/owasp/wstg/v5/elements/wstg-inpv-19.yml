@@ -1,8 +1,5 @@
 id: 5cfb53d0-8456-4857-a030-bbcc2615a2bb
 name: Testing for Server-Side Request Forgery
 externalId: WSTG-INPV-19
-description: |-
-  - Identify SSRF injection points.
-  - Test if the injection points are exploitable.
-  - Asses the severity of the vulnerability.
+description: Identify SSRF injection points, test whether they are exploitable, and assess the severity of the vulnerability.
 elementType: test_case

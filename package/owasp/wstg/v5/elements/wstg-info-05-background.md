@@ -1,3 +1,7 @@
+- Review web page comments, metadata, and redirect bodies to find any information leakage.
+- Gather JavaScript files and review the JS code to better understand the application and to find any information leakage.
+- Identify if source map files or other frontend debug files exist.
+
 It is very common, and even recommended, for programmers to include detailed comments and metadata on their source code. However, comments and metadata included in the HTML code might reveal internal information that should not be available to potential attackers. Comments and metadata review should be done in order to determine if any information is being leaked. Additionally some applications may leak information in the body of redirect responses.
 
 For modern web apps, the use of client-side JavaScript for the frontend is becoming more popular. Popular frontend construction technologies use client-side JavaScript like ReactJS, AngularJS, or Vue. Similar to the comments and metadata in HTML code, many programmers also hardcode sensitive information in JavaScript variables on the frontend. Sensitive information can include (but is not limited to): Private API Keys (*e.g.* an unrestricted Google Map API Key), internal IP addresses, sensitive routes (*e.g.* route to hidden admin pages or functionality), or even credentials. This sensitive information can be leaked from such frontend JavaScript code. A review should be done in order to determine if any sensitive information leaked which could be used by attackers for abuse.

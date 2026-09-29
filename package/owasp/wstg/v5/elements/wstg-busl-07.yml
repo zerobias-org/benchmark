@@ -1,8 +1,5 @@
 id: 81c6cec7-6fd2-4874-a313-28a65d4d8d3e
 name: Test Defenses Against Application Misuse
 externalId: WSTG-BUSL-07
-description: |-
-  - Generate notes from all tests conducted against the system.
-  - Review which tests had a different functionality based on aggressive input.
-  - Understand the defenses in place and verify if they are enough to protect the system against bypassing techniques.
+description: Review test results for functionality that behaves differently under aggressive input and verify whether existing defenses are sufficient against bypass.
 elementType: test_case

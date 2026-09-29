@@ -1,8 +1,5 @@
 id: d8f662b1-79a8-4a03-b1fb-13c5a0648aa6
 name: Testing for Weak Transport Layer Security
 externalId: WSTG-CRYP-01
-description: |-
-  - Validate the service configuration.
-  - Review the digital certificate's cryptographic strength and validity.
-  - Ensure that the TLS security is not bypassable and is properly implemented across the application.
+description: Validate the TLS service configuration and the digital certificate's cryptographic strength and ensure TLS cannot be bypassed anywhere in the application.
 elementType: test_case

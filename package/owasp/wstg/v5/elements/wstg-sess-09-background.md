@@ -1,3 +1,6 @@
+- Identify vulnerable session cookies.
+- Hijack vulnerable cookies and assess the risk level.
+
 An attacker who gets access to user session cookies can impersonate them by presenting such cookies. This attack is known as session hijacking. When considering network attackers, i.e., attackers who control the network used by the victim, session cookies can be unduly exposed to the attacker over HTTP. To prevent this, session cookies should be marked with the `Secure` attribute so that they are only communicated over HTTPS.
 
 Note that the `Secure` attribute should also be used when the web application is entirely deployed over HTTPS, otherwise the following cookie theft attack is possible. Assume that `example.com` is entirely deployed over HTTPS, but does not mark its session cookies as `Secure`. The following attack steps are possible:

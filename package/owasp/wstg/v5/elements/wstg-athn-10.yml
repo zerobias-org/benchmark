@@ -1,7 +1,5 @@
 id: bb5aff1c-8196-4965-88c7-ab38e482c833
 name: Testing for Weaker Authentication in Alternative Channel
 externalId: WSTG-ATHN-10
-description: |-
-  - Identify alternative authentication channels.
-  - Assess the security measures used and if any bypasses exists on the alternative channels.
+description: Identify alternative authentication channels and assess whether they use weaker security controls that could be bypassed.
 elementType: test_case

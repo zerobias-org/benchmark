@@ -1,7 +1,5 @@
 id: 98a05da2-c623-4aad-a4ad-87aefdbaaa59
 name: Testing for Logout Functionality
 externalId: WSTG-SESS-06
-description: |-
-  - Assess the logout UI.
-  - Analyze the session timeout and if the session is properly killed after logout.
+description: Assess the logout interface and analyze the session timeout to verify the session is properly terminated after logout.
 elementType: test_case

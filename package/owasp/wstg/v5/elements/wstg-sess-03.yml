@@ -1,7 +1,5 @@
 id: 5955f158-4b5f-4491-871f-f150dba37241
 name: Testing for Session Fixation
 externalId: WSTG-SESS-03
-description: |-
-  - Analyze the authentication mechanism and its flow.
-  - Force cookies and assess the impact.
+description: Analyze the authentication flow and attempt to force session cookies to assess the impact of session fixation.
 elementType: test_case

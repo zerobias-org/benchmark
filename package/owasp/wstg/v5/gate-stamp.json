@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0-uat.0",
-  "branch": "feat/add-owasp-wstg-benchmark",
-  "sourceHash": "992aa8d94c0dcbb35d7de7dd1204948897b0dffe96b6c2862ccf990d3efc181a",
+  "version": "2.1.0-uat.0",
+  "branch": "fix/element-content-wstg",
+  "sourceHash": "c0c16a9096dcd371fc4951a9acfa5e90b6e21dfa8c82d0dba3a008c9857dfd05",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

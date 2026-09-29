@@ -1,8 +1,5 @@
 id: 280fbccc-b428-418f-9230-75050369fc0a
 name: Testing Multi-Factor Authentication (MFA)
 externalId: WSTG-ATHN-11
-description: |-
-  - Identify the type of MFA used by the application.
-  - Determine whether the MFA implementation is robust and secure.
-  - Attempt to bypass the MFA.
+description: Identify the type of multi-factor authentication used, evaluate whether its implementation is robust and secure, and attempt to bypass it.
 elementType: test_case

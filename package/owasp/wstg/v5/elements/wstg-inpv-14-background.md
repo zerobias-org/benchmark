@@ -1,3 +1,7 @@
+- Identify injections that are stored and require a recall step to the stored injection.
+- Understand how a recall step could occur.
+- Set listeners or activate the recall step if possible.
+
 Also often referred to as persistent attacks, incubated testing is a complex testing method that needs more than one data validation vulnerability to work. Incubated vulnerabilities are typically used to conduct "watering hole" attacks against users of legitimate web applications.
 
 Incubated vulnerabilities have the following characteristics:

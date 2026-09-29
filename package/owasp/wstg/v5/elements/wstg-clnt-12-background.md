@@ -1,3 +1,6 @@
+- Determine whether the website is storing sensitive data in client-side storage.
+- The code handling of the storage objects should be examined for possibilities of injection attacks, such as utilizing unvalidated input or vulnerable libraries.
+
 Browsers provide the following client-side storage mechanisms for developers to store and retrieve data:
 
 - Local Storage

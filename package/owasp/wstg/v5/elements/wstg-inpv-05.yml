@@ -1,7 +1,5 @@
 id: 7def7380-0164-40d9-a4fa-ccb72ce79fdd
 name: Testing for SQL Injection
 externalId: WSTG-INPV-05
-description: |-
-  - Identify SQL injection points.
-  - Assess the severity of the injection and the level of access that can be achieved through it.
+description: Identify SQL injection points and assess the severity of the injection and the level of access it could grant.
 elementType: test_case

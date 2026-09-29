@@ -1,7 +1,5 @@
 id: 9480fa09-d90f-4661-a4e3-aa1fe85b35fb
 name: Testing for Session Puzzling
 externalId: WSTG-SESS-08
-description: |-
-  - Identify all session variables.
-  - Break the logical flow of session generation.
+description: Identify all session variables and attempt to break the logical flow of session generation to test for session puzzling.
 elementType: test_case

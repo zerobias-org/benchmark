@@ -1,7 +1,5 @@
 id: 191bf5f0-8f69-41c0-b3c8-20d608237038
 name: Testing for XML Injection
 externalId: WSTG-INPV-07
-description: |-
-  - Identify XML injection points.
-  - Assess the types of exploits that can be attained and their severities.
+description: Identify XML injection points and assess the types of exploits achievable and their severity.
 elementType: test_case

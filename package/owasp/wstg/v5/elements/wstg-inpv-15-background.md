@@ -1,3 +1,6 @@
+- Assess if the application is vulnerable to splitting, identifying what possible attacks are achievable.
+- Assess if the chain of communication is vulnerable to smuggling, identifying what possible attacks are achievable.
+
 This section illustrates examples of attacks that leverage specific features of the HTTP protocol, either by exploiting weaknesses of the web application or peculiarities in the way different agents interpret HTTP messages.
 This section will analyze two different attacks that target specific HTTP headers:
 

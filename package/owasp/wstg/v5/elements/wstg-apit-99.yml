@@ -1,8 +1,5 @@
 id: 10fd4231-f4eb-4555-a441-dc7a750e7bfc
 name: Testing GraphQL
 externalId: WSTG-APIT-99
-description: |-
-  - Assess that a secure and production-ready configuration is deployed.
-  - Validate all input fields against generic attacks.
-  - Ensure that proper access controls are applied.
+description: Assess whether a GraphQL implementation is deployed securely and production-ready, validates all input, and enforces proper access controls.
 elementType: test_case

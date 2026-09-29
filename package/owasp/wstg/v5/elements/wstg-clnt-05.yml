@@ -1,7 +1,5 @@
 id: ebde702c-2322-4ef0-b7a7-6db4920136b3
 name: Testing for CSS Injection
 externalId: WSTG-CLNT-05
-description: |-
-  - Identify CSS injection points.
-  - Assess the impact of the injection.
+description: Identify CSS injection points and assess the impact of injecting attacker-controlled styles.
 elementType: test_case
