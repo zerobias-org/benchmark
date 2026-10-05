@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/benchmark-bundle",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "All installable benchmarks",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "registry": "https://pkg.zerobias.org"
   },
   "dependencies": {
-    "@zerobias-org/benchmark-owasp-wstg-v5": "2.1.0"
+    "@zerobias-org/benchmark-owasp-wstg-v5": "2.1.1"
   },
   "zerobias": {
     "package": "bundle.all-benchmarks",
