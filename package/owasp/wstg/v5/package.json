@@ -10,15 +10,16 @@
     "directory": "package/owasp/wstg/v5/"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
     "baselines/**",
-    "elements/**"
+    "elements/**",
+    "npm-shrinkwrap.json"
   ],
   "dependencies": {
-    "@zerobias-org/suite-owasp-wstg": "latest"
+    "@zerobias-org/suite-owasp-wstg": "*"
   },
   "type": "module",
   "zerobias": {

@@ -1,7 +1,7 @@
 {
   "version": "2.1.0-uat.0",
-  "branch": "fix/element-content-wstg",
-  "sourceHash": "c0c16a9096dcd371fc4951a9acfa5e90b6e21dfa8c82d0dba3a008c9857dfd05",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "26ea2b45de3dbcc203c9c2609a8ec7b556ebebd857c5975956e98bd3dcd37a65",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
