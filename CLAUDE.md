@@ -8,15 +8,17 @@ This is the **ZeroBias Community Benchmark Repository** containing open-source s
 
 **Repository Role:** Community-contributed security benchmarks (CIS, STIG patterns)
 
-This repository follows the same structure as `auditlogic/benchmark` but contains community-contributed, open-source benchmarks.
+This repository contains community-contributed, open-source benchmarks; a proprietary counterpart repository follows the same structure.
 
 ## Current Status
 
-⚠️ **AI-Assisted Development Workflows Needed**
+⚠️ **No authoring skill yet**
 
-This CLAUDE.md is a placeholder. Comprehensive AI-assisted development workflows for creating and maintaining benchmarks are planned but not yet implemented.
+The repo is on the gradle + zbb pipeline and has one published benchmark (`owasp/wstg/v5`), but
+there is no `create-benchmark` skill: authoring follows the structure, rules and commands in this
+file. The only skill here is `/migrate-packages` (`.claude/skills/migrate-packages/SKILL.md`).
 
-**What's Needed:**
+**Still needed:**
 - Step-by-step workflows for creating new benchmarks
 - Test case development and validation
 - Remediation guidance authoring
@@ -34,7 +36,8 @@ benchmark/
 │   ├── index.yml             # Benchmark metadata (standardType: benchmark)
 │   ├── elements/             # Required; benchmark elements (each its own id)
 │   ├── baselines/            # Optional; baselines (each its own id)
-│   ├── .npmrc
+│   ├── .npmrc                # byte-identical copy of the repo-root .npmrc (cp it, never hand-write)
+│   ├── npm-shrinkwrap.json   # shipped lockfile (in `files`), no `resolved` URLs
 │   ├── build.gradle.kts      # one-line marker: plugins { id("zb.content") }
 │   └── gate-stamp.json       # written by ./gradlew :<v>:<s>:<ver>:gate
 ├── bundle/                    # @zerobias-org/benchmark-bundle (workflow-managed)
@@ -45,16 +48,16 @@ benchmark/
 ├── settings.gradle.kts        # auto-discovers package/**/build.gradle.kts
 └── zbb.yaml
 
-> No real community benchmarks exist yet — the repo is bootstrapped and ready.
-> Create the first with `scripts/createNewBenchmark.sh <category> <vendor> <suite> <version>`
+> One benchmark is published so far: `package/owasp/wstg/v5`.
+> Create another with `scripts/createNewBenchmark.sh <category> <vendor> <suite> <version>`
 > (it drops the gradle marker), then `./gradlew :<vendor>:<suite>:<version>:gate`.
 ```
 
 ## File Format Reference
 
-**Source of Truth:** `../../com/platform/dataloader/src/processors/standard/benchmark/`
-(BenchmarkArtifactLoader, BenchmarkElementFileHandler, BenchmarkBaselineFileHandler;
-shared StandardIndexFileHandler).
+**Source of Truth:** the platform dataloader's benchmark processor. It is not part of this
+open-source org; the gate runs the published loader against your package, so a gate pass is the
+check that the files below are shaped correctly.
 
 **Expected Structure:**
 - `index.yml` - Benchmark metadata. `standardType: benchmark`, non-empty `elementTypes`, `mappingTypes`.
@@ -64,8 +67,8 @@ shared StandardIndexFileHandler).
 
 ## Element content rules
 
-Elements (`elements/<code>.yml`) follow the element content rules — canonical reference:
-[docs/ElementContentRules.md](../../docs/ElementContentRules.md) (meta-repo). In short:
+Elements (`elements/<code>.yml`) follow the element content rules. The full write-up is kept
+with ZeroBias' internal docs and is not published in this org; the rules that apply here are:
 
 - **`description`** — plain text, one line, **under 200 characters**: a summary, not the requirement text.
 - **Full text → `elements/<code>-background.md`**, as markdown that renders (blank lines between
@@ -82,8 +85,8 @@ Gate: this repo has no CI gate — run `zbb :<pkg>:gate` locally (dataloader on 
 Neon branch) and commit the refreshed `gate-stamp.json`. Versions: bump **minor** by hand in
 the fix commit (content change).
 
-To fix a package, use the `fix-element-content` skill (meta-repo `.claude/skills/`), which
-also carries the scripts for surveying, applying and verifying.
+To fix a package, apply the rules above by hand and re-gate. (ZeroBias maintainers have a
+`fix-element-content` skill with survey/apply/verify scripts; it is not part of this org.)
 
 ## Build & validate (gradle + zbb)
 
@@ -91,6 +94,16 @@ also carries the scripts for surveying, applying and verifying.
 ./gradlew :<vendor>:<suite>:<version>:gate   # validate + dataloader + write gate-stamp
 ./gradlew validateUniqueIds                  # cross-cut: unique ids across all *.yml
 ./gradlew projectPaths                        # list discovered packages
+```
+
+**npm.** Every scope resolves from `pkg.zerobias.org` with `ZB_TOKEN` (see the root `.npmrc`).
+Dependency specs are `"*"` — never `"latest"` or a `^` range; the shipped `npm-shrinkwrap.json`
+pins the version. Generate it inside the package, after `package.json` is final, and `git add`
+it before the gate (it is part of the gate-stamp hash):
+
+```bash
+npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json
+grep -c '"resolved"' npm-shrinkwrap.json   # must print 0
 ```
 
 Publishing is driven by `zerobias-org/devops/.github/workflows/zbb-publish-reusable.yml`
@@ -113,14 +126,14 @@ the gradle pipeline is the build/publish system. Don't reintroduce lerna or nx c
 
 ## Related Documentation
 
-- **[Root CLAUDE.md](../../CLAUDE.md)** - Meta-repo guidance
-- **[ContentArtifacts.md](../../ContentArtifacts.md)** - Content catalog system
-- **[auditlogic/benchmark/CLAUDE.md](../../auditlogic/benchmark/CLAUDE.md)** - Proprietary benchmarks (same pattern)
-- **[auditlogic/standard/CLAUDE.md](../../auditlogic/standard/CLAUDE.md)** - Standard structure
-- **[auditmation/platform/dataloader/CLAUDE.md](../../auditmation/platform/dataloader/CLAUDE.md)** - Dataloader processor
+- **[Meta-repo CLAUDE.md](https://github.com/zerobias-org/zerobias/blob/main/CLAUDE.md)** - How the zerobias-org repos fit together
+- **[ContentArtifacts.md](https://github.com/zerobias-org/zerobias/blob/main/docs/ContentArtifacts.md)** - Content catalog system
+- **[Concepts.md](https://github.com/zerobias-org/zerobias/blob/main/docs/Concepts.md)** - Standard / framework / benchmark / crosswalk vocabulary
+- **[zerobias-org/standard](https://github.com/zerobias-org/standard)** - Standard structure (benchmarks are a standard specialization)
+- **[zerobias-org/framework](https://github.com/zerobias-org/framework)** - Sibling repo on the same pipeline
 
 ---
 
-**Last Updated:** 2025-11-11
+**Last Updated:** 2026-10-05
 **Maintainers:** ZeroBias Community
 
