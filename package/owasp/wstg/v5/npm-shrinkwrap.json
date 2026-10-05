@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/benchmark-owasp-wstg-v5",
+  "version": "2.1.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/benchmark-owasp-wstg-v5",
+      "version": "2.1.0",
+      "license": "CC-BY-SA-4.0",
+      "dependencies": {
+        "@zerobias-org/suite-owasp-wstg": "*"
+      }
+    },
+    "node_modules/@zerobias-org/suite-owasp-wstg": {
+      "version": "2.0.1",
+      "integrity": "sha512-/jk1G+Zioc7N168x4UocodERQZQ4i/1SC13xOkvLO2EeCvi2MbEujfWxPahZ3bmOWsg38W/oCcEBUnhqvhVLrA==",
+      "license": "ISC",
+      "dependencies": {
+        "@zerobias-org/vendor-owasp": "*"
+      }
+    },
+    "node_modules/@zerobias-org/vendor-owasp": {
+      "version": "2.0.1",
+      "integrity": "sha512-khldXyzaYbh5rB9M5kVL0PNecpfXeHSlH454YRb/njfw3ZBLhEOZaoU3I/d0sRYMd2+RA//IXyLJPXbSnH9dxw==",
+      "license": "ISC"
+    }
+  }
+}
